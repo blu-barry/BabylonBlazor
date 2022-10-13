@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babylon.Blazor.Lib", "Babylon.Blazor.Lib.csproj", "{F653CB28-549A-45CC-A1F4-369BD9592604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F653CB28-549A-45CC-A1F4-369BD9592604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F653CB28-549A-45CC-A1F4-369BD9592604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F653CB28-549A-45CC-A1F4-369BD9592604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F653CB28-549A-45CC-A1F4-369BD9592604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0047B384-2D8C-45B7-892A-F0EE4219E844}
+	EndGlobalSection
+EndGlobal
