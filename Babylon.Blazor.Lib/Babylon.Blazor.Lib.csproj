@@ -2,8 +2,23 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <Authors>Alex Nek, Michael Barry</Authors>
+    <Company>private</Company>
+    <Product>Babylon.Blazor</Product>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Description>This library packages the well-known 3D library [Babylon.js](https://www.babylonjs.com/) into a Razor component that can be used in a C# Blazor project.
+    The library is intended to be used to creation visualizations and uses limited API of Babylon library. This version of the library will be .NET6 Maui compatible.
+
+    The .NET6 compatible version of the library can be found on [github](https://github.com/blu-barry/BabylonBlazor).
+    The original version of the library may be found on [github](https://github.com/AlexNek/BabylonBlazor).
+    </Description>
+      <AssemblyName>Babylon.Blazor</AssemblyName>
+      <RootNamespace>Babylon.Blazor</RootNamespace>
+      <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+      <RepositoryUrl>https://github.com/blu-barry/BabylonBlazor</RepositoryUrl>
+      <PackageTags>babylon.js blazor maui net6.0 web</PackageTags>
+
   </PropertyGroup>
 
 
