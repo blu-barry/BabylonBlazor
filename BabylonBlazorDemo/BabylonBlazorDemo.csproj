@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <Content Remove="Pages\FetchData.razor" />
+    <Content Remove="Pages\JSInteropExample.razor" />
+    <Content Remove="wwwroot\js\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,4 +36,7 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
 </Project>

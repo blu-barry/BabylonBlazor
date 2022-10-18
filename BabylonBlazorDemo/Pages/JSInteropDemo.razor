@@ -1,0 +1,16 @@
+﻿@page "/interopdemo" 
+@inject IJSRuntime JsRuntime 
+
+<h3>Component1</h3>
+
+<h3>Create Alert</h3>
+
+<button class="btn btn-success" @onclick="ShowAlert">Show Alert</button>
+
+@code {
+    async Task ShowAlert() {
+        await JsRuntime.InvokeVoidAsync("createAlert");
+    }
+
+}
+
