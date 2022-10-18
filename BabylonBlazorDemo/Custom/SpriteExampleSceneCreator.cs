@@ -8,7 +8,7 @@ using Babylon.Blazor.Babylon.Parameters;
 
 using Microsoft.JSInterop;
 
-namespace BabylonBlazorApp.Custom
+namespace BabylonBlazorDemo.Custom
 {
     public class SpriteExampleSceneCreator : SceneCreator
     {

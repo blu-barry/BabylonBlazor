@@ -1,5 +1,14 @@
-﻿using Microsoft.AspNetCore.Components.Web;
+﻿using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+using Babylon.Blazor;
+
+using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Microsoft.JSInterop;
 using BabylonBlazorDemo;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);

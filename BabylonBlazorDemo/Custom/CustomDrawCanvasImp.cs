@@ -2,7 +2,7 @@
 
 using Babylon.Blazor;
 
-namespace BabylonBlazorApp.Custom
+namespace BabylonBlazorDemo.Custom
 {
     public class CustomDrawCanvasImp : BabylonCanvasBase
     {

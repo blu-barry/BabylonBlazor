@@ -6,7 +6,7 @@ using Babylon.Blazor;
 using Babylon.Blazor.Babylon;
 using Babylon.Blazor.Babylon.Parameters;
 
-namespace BabylonBlazorApp.Custom
+namespace BabylonBlazorDemo.Custom
 {
     public class CustomSceneCreator : SceneCreator
     {
