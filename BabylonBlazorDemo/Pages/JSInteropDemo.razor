@@ -1,15 +1,36 @@
-﻿@page "/interopdemo" 
-@inject IJSRuntime JsRuntime 
+﻿@page "/interopdemo"
+@inject IJSRuntime JsRuntime
 
 <h3>Component1</h3>
 
 <h3>Create Alert</h3>
 
 <button class="btn btn-success" @onclick="ShowAlert">Show Alert</button>
+<br />
+
+<h3>Ask a question</h3>
+
+<input @bind="questionText"/>
+
+<button class="btn btn-warning" @onclick="AskQuestion">Ask Question</button>
+
+<div>
+The answer was: <span id="answerSpan"></span>
+</div>
 
 @code {
-    async Task ShowAlert() {
+
+    string questionText = string.Empty;
+
+    async Task ShowAlert()
+    {
         await JsRuntime.InvokeVoidAsync("createAlert");
+    }
+
+    async Task AskQuestion()
+    {
+        var response = await JsRuntime.InvokeAsync<string>("createPrompt", questionText);
+        await JsRuntime.InvokeVoidAsync("setElementTextById", "answerSpan", response);
     }
 
 }
